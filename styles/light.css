@@ -27,7 +27,7 @@
   --background-image: url(../images/cover-image-light.png);
 
 
-  --visibility-icon-rec: hidder;
+  --visibility-icon-rec: hidden;
   
 }
 
@@ -51,7 +51,7 @@
     --background-image: url(../images/cover-image-light.png);
   
   
-    --visibility-icon-rec: hidder;
+    --visibility-icon-rec: hidden;
 
   }
 }
