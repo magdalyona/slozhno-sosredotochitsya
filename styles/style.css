@@ -27,10 +27,6 @@
   height: 100vh;
   min-height: 668px;
   padding: 10px;  
-
-  /* background-position: center;
-  background-size: cover;  */
-  /* background-image: url(../images/cover-image-dark.png); */
 }
 
 @media (min-width: 755px) {
@@ -55,14 +51,6 @@
   }
 
 }
-
-/* @media (width < 768px) {
-
-  .header {
-    padding: 20px;
-  }
-
-} */
 
 .decorated-zone {
   position: relative;
@@ -437,11 +425,6 @@
     grid-row: span 2;
 
   }
-
-  /* .books {
-    grid-row: span 2;
-
-  } */
 
   .street {
     grid-column: span 2;
