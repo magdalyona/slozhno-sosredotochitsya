@@ -304,11 +304,15 @@
   }
 }
 
+.goldfish__title {
+  font-weight: var(--font-weight);
+}
+
 .title-decor {
   line-height: 130%;
   font-family: inherit;
   font-size: inherit;
-  font-weight: var(--accent-font-weight);
+  /* font-weight: var(--accent-font-weight); */
   color: var(--color-title-decor);
   background-color: var(--color-title-background);
 }
@@ -340,7 +344,8 @@
   .what {
     grid-template-columns: 1fr 1fr 1fr;
     margin-inline-end: -7px ;
-    /* display: flex;  */
+    display: grid; 
+    gap: 20px;
    }
 
   .what__title {
@@ -369,15 +374,6 @@
     margin-block-end: 0px;
   }
 }
-
-/* .goldfish_title {
-  color: var(--color-title-decor);
-  background-color: var(--color-title-background); 
-  font-family: inherit;
-  font-weight: var(--font-weight);
-  font-size: inherit;
-  line-height: inherit; 
-} */
 
 .section__gallery {
   display: grid;
